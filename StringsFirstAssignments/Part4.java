@@ -9,7 +9,7 @@ import edu.duke.*;
 public class Part4 {
     public static void printYoutube(URLResource url) {
         for (String ur: url.words()) {
-            if (ur.indexOf("youtube.com") != -1) {
+            if (ur.toLowerCase().indexOf("youtube.com") != -1) {
                 int startIndex = ur.indexOf("\"") + 1;
                 int lastIndex = ur.lastIndexOf("\"");
                 String uri = ur.substring(startIndex, lastIndex);

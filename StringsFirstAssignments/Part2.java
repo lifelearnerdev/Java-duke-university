@@ -33,7 +33,7 @@ public class Part2 {
         System.out.println("The DNA Sequence is: " + dna);
         System.out.println("The gene is the above sequence is: " + findSimpleGene(dna,startCodon, stopCodon));
         
-        dna = "ATGCATTCAAATCGATCTTAAatt".toLowerCase();
+        dna = "AAATGCCCTAACTAGATTAAGAAACC";
         System.out.println("The DNA Sequence is: " + dna);
         System.out.println("The gene is the above sequence is: " + findSimpleGene(dna, startCodon, stopCodon));
     }
